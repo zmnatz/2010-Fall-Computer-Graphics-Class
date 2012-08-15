@@ -1,0 +1,22 @@
+﻿Build started 10/24/2010 7:41:46 PM.
+     1>Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\MatrixTest\MatrixTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MatrixTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MatrixTest.cpp
+         MatrixTest.cpp
+     1>MatrixTest.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\MatrixTest.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MatrixTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\MatrixTest\Release\MatrixTest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Release\MatrixTest.lib" /MACHINE:X86 Release\MatrixTest.obj
+         MatrixTest.vcxproj -> C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\MatrixTest\Release\MatrixTest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\MatrixTest.exe;#1" /manifest Release\MatrixTest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MatrixTest.unsuccessfulbuild".
+         Touching "Release\MatrixTest.lastbuildstate".
+     1>Done Building Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\MatrixTest\MatrixTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.21

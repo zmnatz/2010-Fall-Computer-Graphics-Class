@@ -1,0 +1,74 @@
+Vector Test
+
+2D Operations
+
+Point a (-3.00, 4.00)
+Point b (-3.00, 0.00)
+Point c (-2.00, 1.00)
+Vector v (0.00, -4.00)
+Norm of v = 4.00
+Unit vector of v = (0.00, -1.00)
+Note: v is now a unit vector (result of Normalize())
+Vector w (1.00, 1.00)
+Unit vector of w = (0.71, 0.71)
+Vector t0 (-3.54, -3.54)
+Vector t1 (-3.54, -3.54)
+Vector v + w = (0.71, -0.29)
+Dot Product of v and w is -0.707107
+Angle between v and w = 135.00 degrees
+Point d: (-5.54 -2.54)
+Projection of w onto v is (-0.00 0.71)
+Reflection of v off the x-axis is -3.535534 3.535534
+Distance of point c from line segment ab is 1.00
+Closest Point is (-3.00, 1.00)
+Point e (-4.00, 10.00)
+Distance of point e from line segment ab is 6.08
+Closest Point is (-3.00, 4.00)
+Point f (6.00, -1.00)
+Distance of point f from line segment ab is 9.06
+Closest Point is (-3.00, 0.00)
+
+3D Operations
+
+Point a3 (4.00, 4.00, 2.00)
+Point b3 (1.00, 3.00, -4.00)
+Point c3 (10.00, -2.00, 4.00)
+Vector v3 (-3.00, -1.00, -6.00)
+Norm of v = 6.78
+Unit vector of v3 = (-0.44, -0.15, -0.88)
+Note: v3 is now a unit vector (result of Normalize())
+Vector t3 (4.42, 1.47, 8.85)
+Vector t31 (4.42, 1.47, 8.85)
+Vector w3 (6.00, -6.00, 2.00)
+Vector v3 + w3 = (5.56, -6.15, 1.12)
+Dot Product of v3 and w3 is -3.538607
+Angle between v3 and w3 = 113.95 degrees
+Point d3: (14.42 -0.53 12.85)
+Projection of w3 onto v3 is (1.57 0.52 3.13)
+Distance of point c3 from line segment ab is 8.72
+Closest Point is (4.00, 4.00, 2.00)
+
+Plane Test
+
+Point m (4.00, -4.00, 4.00)
+Point n (-8.00, 1.00, -3.00)
+Point o (2.00, -3.00, 2.00)
+Cross Product of mn and mo = -3.00 -10.00 -2.00
+Plane through points m,n,o = -3.00 -10.00 -2.00 20.00
+Normalized Plane = -0.28 -0.94 -0.19 1.88
+Normalized Plane with point m and normal perp = -0.28 -0.94 -0.19 1.88
+Point n is on the plane
+Point k (5.00, 12.00, 7.00)
+Point k is behind the plane: s = -15.90
+Reflection of v3 off the plane = -0.20, 0.66, -0.72
+
+Ray Tests
+
+Ray1 Direction: 1.000000 0.000000 0.000000
+   Ray1 does not intersect sphere
+Ray2 Direction: 1.000000 0.000000 0.000000
+   Ray2 does not intersect sphere
+Ray3 Direction: 1.000000 0.000000 0.000000
+   Ray3 intersects sphere at -3.464102 2.000000 0.000000, t = 11.535898
+Ray4 Direction: 0.000000 1.000000 0.000000
+   Ray4 intersects sphere at 2.000000 3.464102 0.000000, t = 1.464102

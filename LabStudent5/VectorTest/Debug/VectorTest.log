@@ -1,0 +1,29 @@
+﻿Build started 10/30/2010 10:13:29 AM.
+     1>Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\VectorTest\VectorTest.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\VectorTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VectorTest.cpp
+         VectorTest.cpp
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\vectortest\vectortest.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\VectorTest.exe.embed.manifest.res" .\Debug\VectorTest_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/VectorTest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\VectorTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/VectorTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\VectorTest.lib" /MACHINE:X86 .\Debug\VectorTest.exe.embed.manifest.res
+         .\Debug/VectorTest.obj /MACHINE:I386 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\VectorTest.exe.embed.manifest" /manifest .\Debug\VectorTest.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\VectorTest.exe.embed.manifest.res" .\Debug\VectorTest_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/VectorTest.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\VectorTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/VectorTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\VectorTest.lib" /MACHINE:X86 .\Debug\VectorTest.exe.embed.manifest.res
+         .\Debug/VectorTest.obj /MACHINE:I386 
+         VectorTest.vcxproj -> C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\VectorTest\.\Debug\VectorTest.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\VectorTest.unsuccessfulbuild".
+         Touching ".\Debug\VectorTest.lastbuildstate".
+     1>Done Building Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\VectorTest\VectorTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.03

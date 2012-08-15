@@ -1,0 +1,35 @@
+﻿Build started 10/30/2010 10:13:29 AM.
+     1>Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\GLUTTest\particle.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\particle.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt particle.c
+         particle.c
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\gluttest\particle.c(392): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\gluttest\particle.c(716): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\gluttest\particle.c(718): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\gluttest\particle.c(720): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\particle.exe.embed.manifest.res" .\Debug\particle_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/particle.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\particle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/particle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\particle.lib" /MACHINE:X86 .\Debug\particle.exe.embed.manifest.res
+         .\Debug/particle.obj /MACHINE:I386 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\particle.exe.embed.manifest" /manifest .\Debug\particle.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\particle.exe.embed.manifest.res" .\Debug\particle_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/particle.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\particle.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/particle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\particle.lib" /MACHINE:X86 .\Debug\particle.exe.embed.manifest.res
+         .\Debug/particle.obj /MACHINE:I386 
+         particle.vcxproj -> C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\GLUTTest\.\Debug\particle.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\particle.unsuccessfulbuild".
+         Touching ".\Debug\particle.lastbuildstate".
+     1>Done Building Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\GLUTTest\particle.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.45

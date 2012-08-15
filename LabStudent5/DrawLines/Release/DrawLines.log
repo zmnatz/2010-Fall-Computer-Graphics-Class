@@ -1,0 +1,20 @@
+﻿Build started 10/24/2010 7:41:47 PM.
+     1>Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\DrawLines\DrawLines.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\DrawLines.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /I.. /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DrawLines.cpp
+         DrawLines.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\DrawLines.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\DrawLines.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\DrawLines\Release\DrawLines.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\DrawLines.lib" /MACHINE:X86 Release\DrawLines.obj
+         DrawLines.vcxproj -> C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\DrawLines\Release\DrawLines.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Release\DrawLines.exe;#1" /manifest Release\DrawLines.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\DrawLines.unsuccessfulbuild".
+         Touching "Release\DrawLines.lastbuildstate".
+     1>Done Building Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\DrawLines\DrawLines.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.55

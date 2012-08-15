@@ -1,0 +1,17 @@
+﻿Build started 10/30/2010 10:38:21 PM.
+     1>Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\Animation3D\Animation2D.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Animation3D.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include/ /I../ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Animation3D.cpp
+         Animation3D.cpp
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\scene\unitsquareflatsurface.h(59): error C3861: 'glGenBuffers': identifier not found
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\scene\unitsquareflatsurface.h(60): error C2065: 'GL_ARRAY_BUFFER' : undeclared identifier
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\scene\unitsquareflatsurface.h(60): error C3861: 'glBindBuffer': identifier not found
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\scene\unitsquareflatsurface.h(61): error C2065: 'GL_ARRAY_BUFFER' : undeclared identifier
+     1>c:\users\zaven\my dropbox\school\2010 fall\605-467 computer graphics\labstudent5\scene\unitsquareflatsurface.h(61): error C3861: 'glBufferData': identifier not found
+     1>Done Building Project "C:\Users\Zaven\My Dropbox\School\2010 Fall\605-467 Computer Graphics\LabStudent5\Animation3D\Animation2D.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.87
